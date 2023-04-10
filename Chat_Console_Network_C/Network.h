@@ -12,7 +12,7 @@ class Network
 public:
     Network();
     ~Network();
-    int connectServerOpen();
+    //int connectServerOpen();
     int connectClientOpen();
     void sendMessage(int connection, std::string &str);// отправить
     std:: string reseiveMessage(int connection);
